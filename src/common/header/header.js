@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import Divider from '../divider/divider';
 
 import './header.css';
 
@@ -23,9 +24,10 @@ class Header extends Component {
            </li>
          </ul>
        </div>
-       <div className="header-banner typewriter">
+       <div className="header-banner typewriter header-banner-top">
          {this.props.bannerTitle}
        </div>
+       <Divider />
        <div className="header-banner typewriter">
          {this.props.bannerSubTitle}
        </div>

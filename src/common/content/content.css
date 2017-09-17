@@ -1,0 +1,31 @@
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.content-container-inner {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.content-icon {
+  width: 80px;
+}
+
+.content-icon-camera {
+  width: 40px;
+}
+
+.content-image {
+  width: 100%;
+  max-width: 500px;
+}
