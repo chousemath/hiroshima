@@ -1,10 +1,11 @@
 .header-banner {
-  width: 100%;
+  width: 99%;
   height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
+  padding: 0 10px;
 }
 .header-container {
   padding: 15px;

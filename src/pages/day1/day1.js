@@ -7,8 +7,8 @@ class Day1 extends Component {
    return (
      <div className="Contact">
        <Header
-         bannerTitle='Day 1: Landing'
-         bannerSubTitle='Getting my bearnings, wandering about' />
+         bannerTitle='day 1: landing'
+         bannerSubTitle='getting my bearnings, wandering about' />
        <h1>Day1</h1>
      </div>
    );
