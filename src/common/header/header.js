@@ -12,7 +12,7 @@ class Header extends Component {
          <ul className="pure-menu-list">
            <li className="pure-menu-item pure-menu-selected"><Link to='/' className="pure-menu-link">home</Link></li>
            <li className="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-             <a href="#" id="menuLink1" className="pure-menu-link">blog</a>
+             <a id="menuLink1" className="pure-menu-link">blog</a>
              <ul className="pure-menu-children">
                <li className="pure-menu-item"><Link to='/food' className="pure-menu-link">food</Link></li>
                <li className="pure-menu-item"><Link to='/code' className="pure-menu-link">code</Link></li>
